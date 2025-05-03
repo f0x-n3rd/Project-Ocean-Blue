@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.href = "main.html";
         } else {
             // Show alert if credentials are incorrect
-            alert("Incorrect username or password.");
+            alert("Incorrect username or password. Note: credentials currently hardcoded, username is 'admin' and password is 'password'. This is a school project, so the functionalities are limited.");
         }
     });
 });
