@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+    <title>Project Ocean Blue</title>
+</head>
+<body>
+    <header>
+        <div id="titleCard">🌊 Project Ocean Blue</div>
+        <nav>
+            <button class="navButton" id="homeButton">Home</button>
+            <button class="navButton" id="aboutButton">About</button>
+            <button class="navButton" id="creditsButton">Credits</button>
+            <button class="navButton" id="logoutButton">Logout</button>
+        </nav>
+    </header>
+
+    <main id="apiContainers">
+        <section class="api-container" id="api1">
+            <h2>Random Animal Trivias</h2>
+            <div class="api-content">Loading data...</div>
+            <button id="nextTriviaButton">Next</button>
+        </section>
+        <section class="api-container" id="api2">
+            <h2>Ocean Biodiversity Tracker</h2>
+            <div class="api-content">Select a species and click "Track" to see information.</div>
+            <select id="speciesSelect">
+                <option value="Delphinus delphis">Common Dolphin</option>
+                <option value="Balaenoptera musculus">Blue Whale</option>
+                <option value="Chelonia mydas">Green Sea Turtle</option>
+                <option value="Octopus vulgaris">Common Octopus</option>
+                <option value="Thunnus thynnus">Atlantic Bluefin Tuna</option>
+            </select>
+            <button id="trackSpeciesButton">Track</button>
+        </section>
+        <section class="api-container" id="api3">
+            <h2>Marine Debris Data</h2>
+            <div class="api-content">Loading data...</div>
+            <button id="loadDebrisButton">Load New Data</button>
+        </section>
+    </main>
+</body>
+</html>

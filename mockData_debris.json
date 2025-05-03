@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "location": "Great Pacific Garbage Patch",
+      "lat": 32.5,
+      "lon": -145.0,
+      "type": "Floating plastic",
+      "source": "Consumer waste",
+      "estimatedVolume": "1.8 trillion pieces",
+      "country": "International Waters"
+    },
+    {
+      "id": 2,
+      "location": "Gulf of Thailand",
+      "lat": 12.5,
+      "lon": 101.0,
+      "type": "Fishing nets and plastic bags",
+      "source": "Fishing industry",
+      "estimatedVolume": "High density",
+      "country": "Thailand"
+    },
+    {
+      "id": 3,
+      "location": "Mediterranean Sea near Marseille",
+      "lat": 43.3,
+      "lon": 5.4,
+      "type": "Microplastics",
+      "source": "Tourism & industry",
+      "estimatedVolume": "Moderate",
+      "country": "France"
+    }
+  ]
+  
