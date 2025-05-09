@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Check if user is logged in
     if (localStorage.getItem('loggedIn') !== 'true') {
         // Redirect to login page if not logged in
-        window.location.href = 'login.html';
+        window.location.href = 'index.html';
         return;
     }
 
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         logoutButton.addEventListener('click', function () {
             // Clear login status and redirect to login page
             localStorage.removeItem('loggedIn');
-            window.location.href = 'login.html';
+            window.location.href = 'index.html';
         });
     }
 
